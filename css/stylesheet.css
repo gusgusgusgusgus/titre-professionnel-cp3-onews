@@ -1,0 +1,158 @@
+body {
+    font-size: 0.625em;
+    font-family: sans-serif;
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-image: url(../images/nicole.jpg);
+    background-size: 60rem;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    min-width:50vw;
+    padding: 1rem 1rem 0.5rem;
+    position: sticky;
+    top: 0;
+}
+nav {
+    align-self: flex-end;
+    width: 25rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0.2rem 0.2rem 0.5rem #000;
+    font-size: 0.9rem;
+    font-weight:400;
+}
+
+ .title {
+    display:flex;
+    align-items: flex-start;
+    margin: 1.8rem 1.4rem;
+ }
+
+h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 10rem;
+    margin-left: 1rem;
+    vertical-align: top;
+    text-shadow: 0.2rem 0.2rem 1rem #555;
+    line-height: 1;
+}
+
+.header-logo {
+    width: 2rem;
+}
+
+.intro {
+    background-color: rgba(66, 64, 64, 0.4);
+    text-shadow: 0.2rem 0.2rem 1rem #555;
+    text-align: end;
+    padding: 1rem 
+}
+
+h2 {
+    font-size: 1.8rem;
+    padding: 1.4rem 1.4rem 1.4rem;
+}
+
+h2 span {
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+main {
+    padding: 0.5rem;
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+}
+
+article {
+    width: 50%;
+    padding: 1.5rem;
+    border: 0.05rem solid #eaeaea;
+    display: flex;
+    flex-flow: column;
+    /* Essai d'éviter les borders doublées entre articles */
+    margin-left: -0.05rem;
+    margin-bottom: -0.05rem;    
+}
+
+h3 {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+figcaption {
+    margin-left: 0.8rem;
+    font-weight: bold;
+}
+
+figcaption span {
+    font-weight: normal;
+    color: #9c9999;
+}
+.author img {
+    width: 1.8rem;
+}
+
+.cat {
+    text-transform: uppercase;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bolder;
+    width: 3.4rem;
+    text-align: center;
+    padding: 0.12rem;
+    border-radius: 0.3rem;
+    order: -1;
+}
+
+.news {
+    background-color: #98DC62;
+}
+
+.team {
+    background-color: #DC5E53;
+}
+
+.work {
+    background-color: #0766F0;
+}
+
+a {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    color: #007bff;
+}
